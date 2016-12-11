@@ -1,6 +1,6 @@
 # Tencent Xinge Push
 
-[![Latest Stable Version](https://poser.pugx.org/elfsundae/xgpush/version)](https://packagist.org/packages/elfsundae/xgpush)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ElfSundae/xgpush.svg?style=flat-square)](https://packagist.org/packages/elfsundae/xgpush)
 
 A simple Composer port for the [Tencent Xinge Push](http://xg.qq.com) PHP SDK.
 
