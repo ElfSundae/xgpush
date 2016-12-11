@@ -1,5 +1,7 @@
 <?php
 
+namespace ElfSundae\XgPush;
+
 /*
  * Copyright ? 1998 - 2014 Tencent. All Rights Reserved. 腾讯公司 版权所有
  */
