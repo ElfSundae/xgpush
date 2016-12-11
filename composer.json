@@ -1,0 +1,23 @@
+{
+    "name": "elfsundae/xgpush",
+    "description": "Tencent Xinge Push PHP SDK",
+    "keywords": ["xinge", "xgpush", "push", "tencent"],
+    "license": "MIT",
+    "homepage": "https://github.com/ElfSundae/xgpush",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.4",
+        "mockery/mockery": "~0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ElfSundae\\XgPush\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "minimum-stability": "dev"
+}
