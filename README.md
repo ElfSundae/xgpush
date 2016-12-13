@@ -13,7 +13,7 @@ A simple Composer port for the [Tencent Xinge Push](http://xg.qq.com) PHP SDK.
 composer require elfsundae/xgpush
 ```
 
-## Modification
+## Modifications
 
 This package makes the following changes against the official SDK:
 
