@@ -2,8 +2,19 @@
     "name": "elfsundae/xgpush",
     "description": "Tencent Xinge Push PHP SDK",
     "keywords": ["xinge", "xgpush", "push", "tencent"],
-    "license": "MIT",
     "homepage": "https://github.com/ElfSundae/xgpush",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tencent",
+            "homepage": "http://xg.qq.com"
+        },
+        {
+            "name": "Elf Sundae",
+            "email": "elf.sundae@gmail.com",
+            "homepage": "https://0x123.com"
+        }
+    ],
     "require": {
         "php": ">=5.4.0"
     },
