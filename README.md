@@ -5,7 +5,7 @@
 
 A simple Composer port for the [Tencent Xinge Push](http://xg.qq.com) PHP SDK.
 
-- [Documentation](http://developer.qq.com/wiki/xg/)
+- [Official Documentation](http://developer.qq.com/wiki/xg/)
 
 ## Installation
 
@@ -17,10 +17,10 @@ composer require elfsundae/xgpush
 
 This package makes the following changes against the official SDK:
 
-- Wrap all classes under namespace `ElfSundae\XgPush`.
-- Fix HTTP request. [bcd13ad](https://github.com/ElfSundae/xgpush/commit/bcd13addd78a593d5fd518bddc34b4580f7ddda1)
+- Add namespace `ElfSundae\XgPush`
+- Fix HTTP request. [65f9d7a](https://github.com/ElfSundae/xgpush/commit/65f9d7ad628be80936826afda5c22fa87222d517)
 
 ## Sample
 
-- [simple_demo.php](simple_demo.php)
-- [demo.php](demo.php)
+- [simple_demo.php](docs/simple_demo.php)
+- [demo.php](docs/demo.php)
