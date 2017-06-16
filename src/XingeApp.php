@@ -1669,7 +1669,7 @@ class RequestBase
                 throw new Exception('CURL ERROR: ' . curl_error($curl_handle));
             }
         } catch (Exception $e) {
-            echo $e->getMessage();
+            // echo $e->getMessage();
         }
         curl_close($curl_handle);
 
