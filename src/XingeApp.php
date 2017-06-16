@@ -1658,7 +1658,7 @@ class RequestBase
         }
 
         $data = false;
-        // try {
+        try {
             //初始化一个curl句柄
             $curl_handle = curl_init();
             //设置curl的配置项
@@ -1666,13 +1666,11 @@ class RequestBase
             //发起请求
             $data = curl_exec($curl_handle);
             if ($data === false) {
-                $error = 'CURL ERROR: ' . curl_error($curl_handle);
-                curl_close($curl_handle);
-                throw new Exception($error);
+                throw new Exception('CURL ERROR: ' . curl_error($curl_handle));
             }
-        // } catch (Exception $e) {
-        //     echo $e->getMessage();
-        // }
+        } catch (Exception $e) {
+            echo $e->getMessage();
+        }
         curl_close($curl_handle);
 
         return $data;
